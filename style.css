@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.section-padding{
+    margin-top: 50px;
+}
+.image-area img{
+    width: 600px;
+    height: 100%;
+}
+.content-area h3{
+    font-weight: 700;
+}
+.content-area h3 span{
+    color: #11B9FE;
+}
+.content-area p{
+    color: #9E9E9E;
+}
+#accordion section a{
+    text-decoration: none;
+    color: #000;
+}
+#accordion section a i{
+    float: right;
+}
+#accordion section a h5{
+    font-weight: 600;
+}
+#accordion section{
+    border: 1px solid #dfdddd;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+.rotate-icon:before{
+    transform: rotate(180deg);
+}
+#accordion section p{
+    display: none;
+}
+#accordion section:target p{
+    display: block;
+}
+
+
+
+
+
+
+/*button.accordion{
+    text-align: left;
+    cursor: pointer;
+    background: #000;
+    border: none;
+    color:#fff;
+    outline: none;
+    transition: background-color 0.2s linear;
+}
+button.accordion:hover{
+    background-color: blue;
+}
+.accordion-content{
+    padding: 0 20px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    
+}
